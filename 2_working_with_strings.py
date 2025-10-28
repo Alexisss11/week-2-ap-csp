@@ -43,18 +43,27 @@ print("Length of Dec of Independance:", len(declaration_of_independance))
 # # 3. Indexing and Slicing
 # # ----------------------------------------
 chicago_mayor = "Johnson"
+
 print(len(chicago_mayor))
 #last character can be known as -1 when counting in python
 print(chicago_mayor[0])
 print(chicago_mayor[4]) #indexing a string
 print(chicago_mayor[-1])
 # # Indexing: Access characters by position (0-based index)
-# print("First character:", phrase[0])  # Output: P
-# print("Last character:", phrase[-1])  # Output: !
+print("First character:", phrase[0])  # Output: P
+print("Last character:", phrase[-1])  # Output: !
 
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
-
+chicago_mayor = "Johnson"
+#index slicing
+print(chicago_mayor[0:4])
+#the first number is 0 is inclusive
+#the last number is exclusive
+print(chicago_mayor[4:])
+print(chicago_mayor[0:6])
+print(chicago_mayor[0:5])
+#if youy leave the last one blank it will go to the end
 # # Example combining everything:
 # print("Formatted Example:", (greeting + " " + name + "!").upper())
 # # Output: HELLO WORLD!
