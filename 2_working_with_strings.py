@@ -38,10 +38,16 @@ print("Is Uppercase?", phrase.isupper())  # Output: False
 print("Length of phrase:", len(phrase))  # Output: 14
 declaration_of_independance = "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness"
 print("Length of Dec of Independance:", len(declaration_of_independance))
+
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
-
+chicago_mayor = "Johnson"
+print(len(chicago_mayor))
+#last character can be known as -1 when counting in python
+print(chicago_mayor[0])
+print(chicago_mayor[4]) #indexing a string
+print(chicago_mayor[-1])
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !
