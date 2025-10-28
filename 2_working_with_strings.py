@@ -63,6 +63,8 @@ print(chicago_mayor[0:4])
 print(chicago_mayor[4:])
 print(chicago_mayor[0:6])
 print(chicago_mayor[0:5])
+
+phrase3 = "Supercagifragilistic"
 #if youy leave the last one blank it will go to the end
 # # Example combining everything:
 # print("Formatted Example:", (greeting + " " + name + "!").upper())
