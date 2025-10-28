@@ -33,9 +33,11 @@ print("Uppercase:", name.upper())
 # # Check if all characters are uppercase
 print("Is Uppercase?", phrase.isupper())  # Output: False
 #captitilization
-# # Find the length of the string
-# print("Length of phrase:", len(phrase))  # Output: 14
 
+# # Find the length of the string
+print("Length of phrase:", len(phrase))  # Output: 14
+declaration_of_independance = "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness"
+print("Length of Dec of Independance:", len(declaration_of_independance))
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
