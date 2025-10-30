@@ -19,8 +19,11 @@ print(500 + 55)
 
 ##############################################################################################################
 # Find 3 objects around the room and create variables from it,
+object1 = "karissa"
+object2 = "lizbeth"
+object3 = "keyboard"
 # Insert those variables into an f-string sentence(look at slide 22)in repl.it
-
+print(f"")
 
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
