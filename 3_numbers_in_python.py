@@ -129,11 +129,10 @@ print(num1 ** num2)
 # print(f"Round: {round(pi)}")
 
 # # Importing math functions
-# from math import *
 
-# print(f"Square Root of 16: {sqrt(16)}")
-# print(f"Ceiling of Pi: {ceil(pi)}")
-# print(f"Floor of Pi: {floor(pi)}")
+print(f"Square Root of 16: {sqrt(16)}")
+print(f"Ceiling of Pi: {ceil(pi)}")
+print(f"Floor of Pi: {floor(pi)}")
 
 
 
