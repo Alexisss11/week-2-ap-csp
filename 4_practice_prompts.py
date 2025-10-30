@@ -19,17 +19,21 @@ print(500 + 55)
 
 ##############################################################################################################
 # Find 3 objects around the room and create variables from it,
-object1 = "karissa"
-object2 = "lizbeth"
-object3 = "keyboard"
 # Insert those variables into an f-string sentence(look at slide 22)in repl.it
-print(f"")
+object1 = "computer"
+object2 = "Lizbeth"
+object3 = "Alexis"
+print(f"I see {object1}, {object2}, and {object3}")
 
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
+name = "Kalexis"
+print("Name:", name)
 # Print today's date.
+date = "10/30"
+print("Date:", date)
 # Print the name of your favorite movie.
-
+print("The Death of a Unicorn")
 # Print your name and age on separate lines using a single print() function.
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
 
@@ -49,8 +53,10 @@ print(f"")
 #challenge
 # find a summary of the movie blue beetle online and create a 
 # variable called blue_beetle_summary and print it it out to the screen
-
-# print the length of the summary
+blue_beetle_summary = "Jaime Reyes suddenly finds himself in possession of an ancient relic of alien biotechnology called the Scarab. When the Scarab chooses Jaime to be its symbiotic host, he's bestowed with an incredible suit of armor that's capable of extraordinary and unpredictable powers, forever changing his destiny as he becomes the superhero Blue Beetle."
+print(f"{blue_beetle_summary}")
+print("Length of blue_beetle_summary:", len(blue_beetle_summary))
+# print the length of the sum"mary
 # upper case the entire summary
 # print the summary
 # print the summary in lowercase
