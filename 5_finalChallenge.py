@@ -17,3 +17,7 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+question1 = input("What is your favorite country?:")
+question2 = input("What is your zodiac sign?:")
+print(f"You should name your beer brand...{question2} {question1}.")
